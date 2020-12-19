@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/pargiana_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="126dp"
+        android:text="@string/pargiana"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="126dp" />
+
+    <TextView
+        android:id="@+id/pargiana_ingredients"
+        android:layout_width="178dp"
+        android:layout_height="83dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="11dp"
+        android:text="@string/made_with_tomato_sauce_and_more_cheeses_such_as_mozzarella_pecorino_siciliano_scamorza_and_caciocavallo_silano"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pargiana_name"
+        android:layout_marginRight="11dp" />
+
+    <TextView
+        android:id="@+id/pargiana_owner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="53dp"
+        android:text="@string/belongs_to_ivan_baker"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pargiana_ingredients"
+        android:layout_marginRight="53dp" />
+
+    <TextView
+        android:id="@+id/porchetta_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="125dp"
+        android:text="@string/porchetta"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pargiana_owner"
+        android:layout_marginRight="125dp" />
+
+    <TextView
+        android:id="@+id/porchetta_ingredients"
+        android:layout_width="168dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="21dp"
+        android:text="@string/made_with_meat_salt_garlic_rosemary_fennel_seeds_or_aromatic_herbs"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/porchetta_name"
+        android:layout_marginRight="21dp" />
+
+    <TextView
+        android:id="@+id/porchetta_owner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:text="@string/belongs_to_namudu_lydia"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/porchetta_ingredients"
+        android:layout_marginRight="30dp" />
+
+    <TextView
+        android:id="@+id/spaghetti_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="17dp"
+        android:text="@string/spaghetti_alla_portanesca"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/porchetta_owner"
+        android:layout_marginRight="17dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="166dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/mad_with_spaghetti_tomatoes_olive_oil_black_gaeta_olives_salted_anchovies_chili_peppers"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spaghetti_name"
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        android:id="@+id/spaghetti_owner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="106dp"
+        android:text="@string/belongs_to_moses_ali"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView12"
+        android:layout_marginRight="45dp" />
+
+    <ImageButton
+        android:id="@+id/pargiana_image_button"
+        android:layout_width="163dp"
+        android:layout_height="190dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:onClick="PargianaClicked"
+        app:layout_constraintEnd_toStartOf="@+id/pargiana_ingredients"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/parnigiana" />
+
+    <ImageButton
+        android:id="@+id/porchetta_image"
+        android:layout_width="161dp"
+        android:layout_height="178dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="26dp"
+        android:onClick="PorchettaClicked"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintEnd_toStartOf="@+id/porchetta_ingredients"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pargiana_image_button"
+        app:srcCompat="@drawable/porchetta"
+        android:layout_marginLeft="31dp"
+        android:layout_marginRight="30dp" />
+
+    <ImageButton
+        android:id="@+id/spaghetti_image"
+        android:layout_width="176dp"
+        android:layout_height="182dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="25dp"
+        android:onClick="SpaghettiClicked"
+        app:layout_constraintEnd_toStartOf="@+id/textView12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/porchetta_image"
+        app:srcCompat="@drawable/spaghetti_alla_portanesca"
+        android:layout_marginLeft="28dp"
+        android:layout_marginRight="25dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

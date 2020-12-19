@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/greek_style_beef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:layout_marginEnd="128dp"
+        android:onClick="Greekbeef"
+        android:text="@string/greek_style_pizza"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="128dp" />
+
+    <TextView
+        android:id="@+id/ingredients_name"
+        android:layout_width="220dp"
+        android:layout_height="38dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="28dp"
+        android:text="@string/made_up_of_artichokes_feta_cheese_and_kalamata_olives"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/greek_style_beef"
+        android:layout_marginRight="28dp" />
+
+    <TextView
+        android:id="@+id/greek_style_owner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="84dp"
+        android:text="@string/belongs_to_twine_benon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ingredients_name"
+        android:layout_marginRight="84dp" />
+
+    <TextView
+        android:id="@+id/italian_beef"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="163dp"
+        android:text="@string/italian_beef"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/greek_style_owner"
+        android:layout_marginRight="163dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="227dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="36dp"
+        android:text="@string/made_up_ofthinly_sliced_seasoned_layers_of_roast_beef_in_a_dense_and_chewy_italian_style_roll"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/italian_beef"
+        android:layout_marginRight="36dp" />
+
+    <TextView
+        android:id="@+id/Italian_beef_owner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="70dp"
+        android:text="@string/belongs_to_mugabi_charles"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        android:layout_marginRight="70dp" />
+
+    <TextView
+        android:id="@+id/new_york_city_bagels"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="95dp"
+        android:text="@string/new_york_city_bagels"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Italian_beef_owner"
+        android:layout_marginRight="95dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="227dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="28dp"
+        android:text="@string/made_with_garlic_onion_cinnamon_and_raisins_best_enjoyed_fresh_out_of_the_oven_and_paired_with_butter_scallions_lox_and_cream_cheese"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_york_city_bagels"
+        android:layout_marginRight="28dp" />
+
+    <TextView
+        android:id="@+id/Bagels_owner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="79dp"
+        android:text="@string/belongs_to_bwiza_angel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8"
+        android:layout_marginRight="79dp" />
+
+    <TextView
+        android:id="@+id/dip_sandwich"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="144dp"
+        android:text="@string/dip_sandwich"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Bagels_owner"
+        android:layout_marginRight="144dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="232dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/made_with_coleslaw_potato_and_macaroni_salad_hard_boiled_eggs_sweet_or_sour_pickles_black_olives_and_yellow_chile_peppers"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dip_sandwich"
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        android:id="@+id/dip_sandwich_owner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="85dp"
+        android:layout_marginBottom="94dp"
+        android:text="@string/belongs_to_murezi_amos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11"
+        android:layout_marginRight="85dp" />
+
+    <ImageButton
+        android:id="@+id/greek_pizza_image"
+        android:layout_width="128dp"
+        android:layout_height="132dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="19dp"
+        app:layout_constraintEnd_toStartOf="@+id/ingredients_name"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/greek_style_pizza"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="19dp" />
+
+    <ImageButton
+        android:id="@+id/italian_beef_image"
+        android:layout_width="126dp"
+        android:layout_height="114dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:onClick="Italian"
+        android:layout_marginEnd="6dp"
+        app:layout_constraintEnd_toStartOf="@+id/textView5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/greek_pizza_image"
+        app:srcCompat="@drawable/italian_beef"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="6dp" />
+
+    <ImageButton
+        android:id="@+id/new_york_bargler_image"
+        android:layout_width="122dp"
+        android:layout_height="155dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="18dp"
+        android:onClick="NewYork"
+        app:layout_constraintEnd_toStartOf="@+id/textView8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/italian_beef_image"
+        app:srcCompat="@drawable/new_york_city_bagels"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="18dp" />
+
+    <ImageButton
+        android:id="@+id/dip_sandwich_image"
+        android:layout_width="128dp"
+        android:layout_height="141dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="19dp"
+        android:onClick="Dipsandwich"
+        android:layout_marginBottom="88dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/textView11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_york_bargler_image"
+        app:srcCompat="@drawable/dip_sandwich"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="19dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

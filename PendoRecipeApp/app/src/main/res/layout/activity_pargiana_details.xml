@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pargiana_details">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="304dp"
+        android:layout_height="177dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/found_throughout_southern_italy_parmigiana_di_melanzane_is_a_type_of_gratinated_vegetable_casserole_traditionally_made_of_fried_or_grilled_slices_of_eggplant_layered_with_basil_flavored_tomato_sauce_and_topped_with_one_or_more_cheeses_such_as_mozzarella_pecorino_siciliano_scamorza_and_caciocavallo_silano"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

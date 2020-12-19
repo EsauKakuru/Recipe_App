@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/spring_rolls_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="184dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/spring_rolls"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/spring_rolls_ingredients"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginRight="184dp" />
+
+    <TextView
+        android:id="@+id/spring_rolls_ingredients"
+        android:layout_width="126dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/made_with_vegetables_cheese_pepper"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/spring_rolls_owner"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spring_rolls_name"
+        android:layout_marginRight="128dp" />
+
+    <TextView
+        android:id="@+id/spring_rolls_owner"
+        android:layout_width="97dp"
+        android:layout_height="34dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="152dp"
+        android:text="Belongs to Atwine Molly"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spring_rolls_ingredients"
+        android:layout_marginRight="152dp" />
+
+    <TextView
+        android:id="@+id/quick_noodles"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="164dp"
+        android:text="@string/quick_noodles"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spring_rolls_owner"
+        android:layout_marginRight="164dp" />
+
+    <TextView
+        android:id="@+id/quick_noodles_ingredients"
+        android:layout_width="190dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/noodles_tossed_with_veggies_lemon_juice_peanuts"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/quick_noodles_ower"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quick_noodles"
+        android:layout_marginRight="48dp" />
+
+    <TextView
+        android:id="@+id/quick_noodles_ower"
+        android:layout_width="105dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="128dp"
+        android:text="Belongs to Mugisha Richard"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quick_noodles_ingredients"
+        android:layout_marginRight="128dp" />
+
+    <TextView
+        android:id="@+id/fried_tofu_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="184dp"
+        android:text="Fried Tofu"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quick_noodles_ower"
+        android:layout_marginRight="184dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="188dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="48dp"
+        android:text="@string/made_with_rice_vegetarian_spices"
+        android:textSize="12sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fried_tofu_text"
+        android:layout_marginRight="48dp" />
+
+    <TextView
+        android:id="@+id/fried_tolu_owner"
+        android:layout_width="165dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="68dp"
+        android:text="Belongs to Atujuna Dorothy"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:layout_constraintVertical_bias="0.018"
+        android:layout_marginRight="68dp" />
+
+    <ImageButton
+        android:id="@+id/spring_rolls_image"
+        android:layout_width="124dp"
+        android:layout_height="123dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="52dp"
+        android:onClick="springrolls"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toStartOf="@+id/spring_rolls_ingredients"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/spring_rolls"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="17dp" />
+
+    <ImageButton
+        android:id="@+id/quick_noodles_image"
+        android:layout_width="144dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="16dp"
+        android:onClick="quicknoodles"
+        app:layout_constraintEnd_toStartOf="@+id/quick_noodles"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spring_rolls_image"
+        app:srcCompat="@drawable/quick_noodles"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="16dp" />
+
+    <ImageButton
+        android:id="@+id/fried_tolu_image"
+        android:layout_width="127dp"
+        android:layout_height="158dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="220dp"
+        android:onClick="FriedTolu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/fried_tofu_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/quick_noodles_image"
+        app:srcCompat="@drawable/fried_tofu"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="29dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
